@@ -2,6 +2,7 @@ const admin = require('firebase-admin');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+// eslint-disable-next-line import/no-unresolved
 const serviceAccount = require('./service-account.json');
 
 admin.initializeApp({
