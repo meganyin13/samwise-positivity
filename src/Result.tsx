@@ -1,11 +1,11 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import { ResultType } from './types';
 
 type Props = {
   readonly result: ResultType;
 }
 
-export default ({ result }: Props): ReactElement => {
+export default ({ result }: Props): React.ReactElement => {
   switch (result) {
     case 'Success':
       return <p>Thanks for subscribing!</p>;

@@ -4,11 +4,11 @@ import Result from './Result';
 import './App.css';
 import { ResultType } from './types';
 
-export default () => {
+export default (): React.ReactElement => {
   const [email, setEmail] = useState<string>('');
   const [result, setResult] = useState<ResultType>('None');
 
-  const submitEmail = async () => {
+  const submitEmail = async (): Promise<void> => {
     try {
       setResult('Loading');
       await axios.post('http://localhost:8080/addEmail', {
