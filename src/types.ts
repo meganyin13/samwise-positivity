@@ -1,5 +1,7 @@
 export type ResultType =
-| 'Loading'
-| 'Success'
-| 'Error'
-| 'None';
+  | 'Loading'
+  | 'Success'
+  | 'exists'
+  | 'invalidInput'
+  | 'Error'
+  | 'None';
