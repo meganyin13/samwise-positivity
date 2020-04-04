@@ -1,0 +1,52 @@
+.Landing {
+  background-color: #F8F4ED;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 187px;
+  text-align: center;
+  margin: 0;
+  z-index: 10;
+  position: relative;
+}
+
+.Love {
+  color: #FF8A8A;
+}
+
+.SubText {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  margin: 0;
+  z-index: 10;
+}
+
+.Button {
+  background: #F4AB98;
+  border-radius: 40px;
+  width: 20%;
+  font-size: 30px;
+  line-height: 42px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  bottom: 20%;
+} 
+
+.HeartGraphic {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  width: 60%;
+  height: 90%;
+}
