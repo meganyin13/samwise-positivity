@@ -1,6 +1,8 @@
 # Samwise Spread Positivity Landing Page
 
-<img src="./src/imgs/full_result.png" />
+A landing page to collect emails for Samwise's Spread Positivity newsletter!
+
+<img src="./src/imgs/final_page.png" />
 
 Contributors:
 - Megan Yin: Developer
