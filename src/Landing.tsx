@@ -1,11 +1,16 @@
 import React from 'react';
+import { animateScroll } from 'react-scroll';
 import SamwiseLogo from './imgs/samwise-logo.png';
 import HeartGraphic from './imgs/heart-graphic.png';
 import styles from './Landing.module.css';
 
 export default (): React.ReactElement => {
   const scrollDown = (): void => {
-    window.scrollBy(0, window.innerHeight);
+    animateScroll.scrollTo(window.innerHeight, {
+      delay: 100,
+      duration: 400,
+      smooth: true,
+    });
   };
 
   return (
