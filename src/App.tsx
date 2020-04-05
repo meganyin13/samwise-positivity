@@ -1,11 +1,11 @@
 import React from 'react';
 import Landing from './Landing';
-import EmailBox from './EmailBox';
 import styles from './App.module.css';
+import SignUp from './SignUp';
 
 export default (): React.ReactElement => (
   <div className={styles.App}>
     <Landing />
-    <EmailBox />
+    <SignUp />
   </div>
 );

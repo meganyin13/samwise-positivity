@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Result from './Result';
-import styles from './App.module.css';
+import styles from './EmailBox.module.css';
 import { ResultType } from './types';
 import { getEmails, addEmail } from './firebase/api';
 
@@ -41,17 +41,21 @@ export default (): React.ReactElement => {
     <div className={styles.EmailBox}>
       <input
         type="text"
-        placeholder="Enter your email"
+        placeholder="enter email"
         value={email}
         onChange={(e) => setEmail(e.currentTarget.value)}
+        className={styles.Input}
       />
       <button
         type="submit"
         onClick={submitEmail}
+        className={styles.Button}
       >
-        Subscribe!
+        Sign Up!
       </button>
-      <Result result={result} />
+      <div className={styles.Result}>
+        <Result result={result} />
+      </div>
     </div>
   );
 };
