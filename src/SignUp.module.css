@@ -1,0 +1,38 @@
+.SignUp {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.Blurb {
+  font-weight: 500;
+  font-size: 30px;
+  width: 500px;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}
+
+.Left {
+  flex: 6;
+  height: 100vh;
+  background-color: rgba(245, 207, 191, 0.6);;
+}
+
+.Right {
+  flex: 4;
+  background-color: #F4AB98;
+}
+
+.Phone {
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  bottom: 100vh + 10%;
+}
+
+.BEARRRR {
+  position: absolute;
+  top: 182.5%;
+  left: 5%;
+}
