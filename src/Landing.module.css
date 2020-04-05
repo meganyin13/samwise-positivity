@@ -6,7 +6,7 @@
 
 .Title {
   font-weight: bold;
-  font-size: 130px;
+  font-size: 110px;
   line-height: 187px;
   text-align: center;
   margin: 0;
@@ -20,8 +20,8 @@
 
 .SubText {
   font-weight: 500;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 32px;
+  line-height: 40px;
   text-align: center;
   width: 70%;
   position: relative;
@@ -49,4 +49,5 @@
   left: 45%;
   width: 60%;
   height: 90%;
+  margin-left: -70px;
 }

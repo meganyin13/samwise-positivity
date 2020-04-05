@@ -16,12 +16,14 @@
 .Left {
   flex: 6;
   height: 100vh;
-  background-color: rgba(245, 207, 191, 0.6);;
+  background-color: rgba(245, 207, 191, 0.6);
+  padding-left: 25px;
 }
 
 .Right {
   flex: 4;
   background-color: #F4AB98;
+  padding-right: 25px;
 }
 
 .Phone {
@@ -33,6 +35,10 @@
 
 .BEARRRR {
   position: absolute;
-  top: 182.5%;
+  bottom: -100vh;
   left: 5%;
+}
+
+.BEARRRR svg {
+  height: 2px;
 }

@@ -1,0 +1,25 @@
+.Footer {
+  text-align:center;
+  color:black;
+  padding-bottom:30px;
+  position: absolute;
+  left: 45%;
+  top: 190%;
+}
+
+.Footer p{
+  margin:0;
+}
+
+.Footer p:last-child{
+  font-size:10px;
+}
+
+.Footer a{
+  color:black;
+  text-decoration:none;
+}
+
+.Footer img{
+  max-height:10px;
+}
