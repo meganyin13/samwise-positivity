@@ -15,7 +15,7 @@ export default (): React.ReactElement => {
 
   return (
     <div className={styles.Landing}>
-      <img src={SamwiseLogo} alt="Samwise Logo" width="30%" height="20%" />
+      <img src={SamwiseLogo} alt="Samwise Logo" width="400px" />
       <h1 className={styles.Title}>
         #SpreadThe
         <span className={styles.Love}>Love</span>
