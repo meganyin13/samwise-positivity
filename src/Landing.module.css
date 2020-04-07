@@ -74,9 +74,9 @@
     width: 100%;
   }
   .Button {
-    position: static;
-    width: 80%;
-    margin: 10%;
+    position: relative;
+    width: 50%;
+    margin: 1em -10%;
     border: none;
   }
 }
