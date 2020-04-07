@@ -23,3 +23,11 @@
 .Footer img{
   max-height:10px;
 }
+
+@media screen and (max-width: 840px) {
+  .Footer {
+    position: static;
+    padding: 2em 0;
+    display: none;
+  }
+}

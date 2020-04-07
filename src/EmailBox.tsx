@@ -71,7 +71,7 @@ export default (): React.ReactElement => {
         Sign Up!
       </button>
       <div style={{
-        position: 'absolute',
+        position: 'relative',
         left: '50%',
         top: '10%',
       }}
