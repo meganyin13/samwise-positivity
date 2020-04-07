@@ -6,8 +6,8 @@
 
 .Title {
   font-weight: bold;
-  font-size: 110px;
-  line-height: 187px;
+  font-size: 100px;
+  line-height: 180px;
   text-align: center;
   margin: 0;
   z-index: 10;
@@ -23,7 +23,7 @@
   font-size: 32px;
   line-height: 40px;
   text-align: center;
-  width: 70%;
+  width: 60%;
   position: relative;
   left: 15%;
   margin: 0;
@@ -41,13 +41,42 @@
   position: absolute;
   left: 30%;
   bottom: 20%;
+  z-index: 10;
 } 
+
+.Button:hover,
+.Button:focus {
+  background-color: #FFD1C5;
+  cursor: pointer;
+}
 
 .HeartGraphic {
   position: absolute;
-  top: 15%;
-  left: 45%;
+  bottom: 0;
+  right: 0;
   width: 60%;
-  height: 90%;
-  margin-left: -70px;
+}
+
+@media screen and (max-width: 840px) {
+  .Logo {
+    width: 50%;
+  }
+  .Title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 10%;
+  }
+  .SubText {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .HeartGraphic {
+    width: 100%;
+  }
+  .Button {
+    position: relative;
+    width: 50%;
+    margin: 1em -10%;
+    border: none;
+  }
 }

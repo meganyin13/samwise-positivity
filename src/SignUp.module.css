@@ -7,30 +7,25 @@
 .Blurb {
   font-weight: 500;
   font-size: 30px;
-  width: 500px;
-  position: relative;
-  top: 20%;
-  left: 10%;
+  margin-top: 40%;
 }
 
 .Left {
-  flex: 6;
-  height: 100vh;
+  width: 60%;
   background-color: rgba(245, 207, 191, 0.6);
-  padding-left: 25px;
+  padding: 0 10%;
+  box-sizing: border-box;
 }
 
 .Right {
-  flex: 4;
+  width: 40%;
   background-color: #F4AB98;
-  padding-right: 25px;
 }
 
 .Phone {
   height: 90%;
   position: absolute;
   left: 50%;
-  bottom: 100vh + 10%;
 }
 
 .BEARRRR {
@@ -41,4 +36,39 @@
 
 .BEARRRR svg {
   height: 2px;
+}
+
+.Phone2 {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .SignUp { 
+    display: block; 
+    padding-bottom: 0;
+  }
+  .Left {
+    padding: 1em 10% 0 10%;
+    height: 100vh;
+    width: 100%;
+  }
+  .Right {
+    display: none;
+  }
+  .Phone2 {
+    display: block;
+    height: 50%;
+    padding: 1em 0;
+    margin: 0 auto;
+  }
+  .Blurb {
+    font-size: 20px;
+    width: 90%;
+    padding: 1em 0;
+    margin: 0;
+  }
+  .BEARRRR {
+    width: 100px;
+    position: static;
+  }
 }

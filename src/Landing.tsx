@@ -6,7 +6,7 @@ import styles from './Landing.module.css';
 
 export default (): React.ReactElement => {
   const scrollDown = (): void => {
-    animateScroll.scrollTo(window.innerHeight, {
+    animateScroll.scrollTo(window.screen.height, {
       delay: 100,
       duration: 400,
       smooth: true,
@@ -15,7 +15,7 @@ export default (): React.ReactElement => {
 
   return (
     <div className={styles.Landing}>
-      <img src={SamwiseLogo} alt="Samwise Logo" width="400px" />
+      <img className={styles.Logo} src={SamwiseLogo} alt="Samwise Logo" width="400px" />
       <h1 className={styles.Title}>
         #SpreadThe
         <span className={styles.Love}>Love</span>

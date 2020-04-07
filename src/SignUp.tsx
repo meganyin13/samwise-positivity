@@ -12,6 +12,11 @@ export default (): React.ReactElement => (
         productivity tips, and fun at-home activities!
       </p>
       <EmailBox />
+      <img
+        className={styles.Phone2}
+        src={Phone}
+        alt="Screenshot of Samwise positivity newsletter on iPhone XR"
+      />
       <BEARRRR className={styles.BEARRRR} />
     </div>
     <div className={styles.Right}>
