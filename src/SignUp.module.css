@@ -42,3 +42,39 @@
 .BEARRRR svg {
   height: 2px;
 }
+
+.Phone2 {
+  display: none;
+}
+
+@media screen and (max-width: 840px) {
+  .SignUp { 
+    display: block; 
+    padding-bottom: 0;
+  }
+  .Left {
+    padding: 1em 10% 0 10%;
+    height: 100vh;
+    width: 100%;
+  }
+  .Right {
+    display: none;
+  }
+  .Phone2 {
+    display: block;
+    height: 50%;
+    /* width: 100%; */
+    padding: 1em 0;
+    margin: 0 auto;
+  }
+  .Blurb {
+    font-size: 20px;
+    width: 90%;
+    padding: 1em 0;
+    margin: 0;
+  }
+  .BEARRRR {
+    width: 100px;
+    position: static;
+  }
+}

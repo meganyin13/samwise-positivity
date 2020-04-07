@@ -48,6 +48,28 @@
   top: 15%;
   left: 45%;
   width: 60%;
-  height: 90%;
-  margin-left: -70px;
+}
+
+@media screen and (max-width: 840px) {
+  .Logo {
+    width: 50%;
+  }
+  .Title {
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 10%;
+  }
+  .SubText {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .HeartGraphic {
+    width: 90%;
+  }
+  .Button {
+    position: relative;
+    width: 50%;
+    margin: 1em -10%;
+    border: none;
+  }
 }
