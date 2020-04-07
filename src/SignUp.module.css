@@ -23,9 +23,10 @@
 }
 
 .Phone {
-  height: 90%;
+  /* height: 90%; */
   position: absolute;
   left: 50%;
+  max-width: 40%;
 }
 
 .BEARRRR {
@@ -60,6 +61,7 @@
     height: 50%;
     padding: 1em 0;
     margin: 0 auto;
+    max-width: 100%;
   }
   .Blurb {
     font-size: 20px;
