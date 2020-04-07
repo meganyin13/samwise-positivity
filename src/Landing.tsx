@@ -6,7 +6,7 @@ import styles from './Landing.module.css';
 
 export default (): React.ReactElement => {
   const scrollDown = (): void => {
-    animateScroll.scrollTo(window.screen.height, {
+    animateScroll.scrollTo(document.documentElement.clientHeight, {
       delay: 100,
       duration: 400,
       smooth: true,
