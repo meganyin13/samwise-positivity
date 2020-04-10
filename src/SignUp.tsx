@@ -11,6 +11,8 @@ export default (): React.ReactElement => (
         Sign up to receive a weekly email with positive worldly news,
         productivity tips, and fun at-home activities!
       </p>
+      <br />
+      <br />
       <EmailBox />
       <img
         className={styles.Phone2}

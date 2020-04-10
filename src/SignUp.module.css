@@ -8,6 +8,7 @@
   font-weight: 500;
   font-size: 30px;
   margin-top: 40%;
+  margin-bottom: 0;
 }
 
 .Left {
@@ -23,7 +24,6 @@
 }
 
 .Phone {
-  /* height: 90%; */
   position: absolute;
   left: 50%;
   max-width: 40%;
