@@ -59,21 +59,19 @@
   .Phone2 {
     display: block;
     max-width: 100%;
-    padding: 1em 0;
+    padding: 3em 0;
     margin: 0 auto;
-    position: relative;
-    top: -12%;
     max-height: 60%;
-    z-index: 1;
   }
   .Blurb {
     font-size: 20px;
     width: 90%;
-    padding: 20% 0;
-    margin: 0;
+    padding: 10% 0;
+    margin: 0 auto;
   }
   .BEARRRR {
     width: 100px;
-    bottom: -105%;
+    position: static;
+    margin-left: -5%;
   }
 }
