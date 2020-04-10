@@ -1,5 +1,7 @@
 .EmailBox {
   width: 80%;
+  position: relative;
+  z-index: 2;
 }
 
 .Input {
