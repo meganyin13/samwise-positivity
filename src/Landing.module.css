@@ -14,9 +14,9 @@
 .Title {
   font-weight: bold;
   font-size: 100px;
-  line-height: 180px;
+  line-height: 120px;
   text-align: center;
-  margin: 0;
+  margin: 10% 0 0 0;
   z-index: 10;
   position: relative;
 }
@@ -27,13 +27,12 @@
 
 .SubText {
   font-weight: 500;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
   text-align: center;
   width: 60%;
+  margin: 0 auto;
   position: relative;
-  left: 15%;
-  margin: 0;
   z-index: 10;
 }
 
@@ -50,6 +49,7 @@
   left: 30%;
   bottom: 20%;
   z-index: 10;
+  border: none;
 } 
 
 .Button:hover,
@@ -62,7 +62,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 60%;
+  height: 90%;
 }
 
 @media screen and (max-width: 840px) {
