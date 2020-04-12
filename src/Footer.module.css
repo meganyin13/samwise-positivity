@@ -23,8 +23,22 @@
   max-height:10px;
 }
 
+.BEARRRR {
+  display: none;
+}
+
 @media screen and (max-width: 840px) {
   .Footer {
     position: static;
+    display: flex;
+    padding: 0;
+  }
+  .BEARRRR {
+    flex: 3;
+    display: block;
+    height: 3em;
+  }
+  .Footer > div {
+    flex: 7;
   }
 }
