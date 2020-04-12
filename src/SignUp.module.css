@@ -13,7 +13,7 @@
 
 .Left {
   width: 60%;
-  background-color: rgba(245, 207, 191, 0.6);
+  background-color: #F5CFBF;
   padding: 0 10%;
   box-sizing: border-box;
 }
@@ -66,12 +66,10 @@
   .Blurb {
     font-size: 20px;
     width: 90%;
-    padding: 10% 0;
+    padding-top: 10%;
     margin: 0 auto;
   }
   .BEARRRR {
-    width: 100px;
-    position: static;
-    margin-left: -5%;
+    display: none;
   }
 }
