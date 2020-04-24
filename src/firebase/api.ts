@@ -14,15 +14,8 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-const emailsCollection = firebase.firestore().collection('emails');
+const emailsIDCollection = firebase.firestore().collection('emails_id');
 
-export const addEmail = (email: string): void => {
-  emailsCollection.add({
-    email,
-  });
-};
+const addEmail = (email: string): Promise<void> => emailsIDCollection.doc(email).set({ email });
 
-export const getEmails = async (): Promise<string[]> => {
-  const snapshot = await emailsCollection.get();
-  return snapshot.docs.map((doc) => doc.data().email);
-};
+export default addEmail;
