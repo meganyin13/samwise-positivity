@@ -8,8 +8,8 @@ export default (): React.ReactElement => (
   <div className={styles.SignUp}>
     <div className={styles.Left}>
       <p className={styles.Blurb}>
-        Sign up to receive a weekly email with positive worldly news,
-        productivity tips, and fun at-home activities!
+        Sign up to receive a weekly newsletter packed with positive worldly news,
+        fun home activities, and inspiration from our community!
       </p>
       <br />
       <br />
@@ -19,7 +19,9 @@ export default (): React.ReactElement => (
         src={Phone}
         alt="Screenshot of Samwise positivity newsletter on iPhone XR"
       />
-      <BEARRRR className={styles.BEARRRR} />
+      <a href="https://www.samwise.today" rel="noopener noreferrer" target="_blank">
+        <BEARRRR className={styles.BEARRRR} />
+      </a>
     </div>
     <div className={styles.Right}>
       <img
