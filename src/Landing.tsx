@@ -16,9 +16,9 @@ export default (): React.ReactElement => {
   return (
     <div className={styles.Landing}>
       <div className={styles.LogoBar}>
-      <a href="https://www.samwise.today" target="_blank">
-        <img className={styles.Logo} src={SamwiseLogo} alt="Samwise Logo" height="10%" />
-      </a>
+        <a href="https://www.samwise.today" rel="noopener noreferrer" target="_blank">
+          <img className={styles.Logo} src={SamwiseLogo} alt="Samwise Logo" height="10%" />
+        </a>
       </div>
       <div>
         <h1 className={styles.Title}>
@@ -26,7 +26,8 @@ export default (): React.ReactElement => {
           <span className={styles.Love}>Love</span>
         </h1>
         <p className={styles.SubText}>
-          a weekly dose of good news, inspiring stories, and wellness tips that aims to spread positivity during these times of uncertainty.
+          a weekly dose of good news, inspiring stories, and wellness tips that aims to
+          spread positivity during these times of uncertainty.
         </p>
         <button
           type="submit"

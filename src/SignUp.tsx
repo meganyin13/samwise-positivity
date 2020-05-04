@@ -4,10 +4,6 @@ import Phone from './imgs/phone.png';
 import EmailBox from './EmailBox';
 import styles from './SignUp.module.css';
 
-function navtoSamwise() {
-  window.open('https://www.samwise.today')
-}
-
 export default (): React.ReactElement => (
   <div className={styles.SignUp}>
     <div className={styles.Left}>
@@ -23,7 +19,9 @@ export default (): React.ReactElement => (
         src={Phone}
         alt="Screenshot of Samwise positivity newsletter on iPhone XR"
       />
-      <BEARRRR className={styles.BEARRRR} onClick ={navtoSamwise}/>
+      <a href="https://www.samwise.today" rel="noopener noreferrer" target="_blank">
+        <BEARRRR className={styles.BEARRRR} />
+      </a>
     </div>
     <div className={styles.Right}>
       <img
