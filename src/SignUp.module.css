@@ -6,9 +6,10 @@
 
 .Blurb {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 40%;
   margin-bottom: 0;
+  margin-right:10%;
 }
 
 .Left {
@@ -37,6 +38,10 @@
 
 .BEARRRR svg {
   height: 2px;
+}
+
+.BEARRRR:hover {
+  cursor:pointer;
 }
 
 .Phone2 {

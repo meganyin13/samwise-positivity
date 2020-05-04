@@ -4,9 +4,13 @@ import logoHeart from './imgs/heart_logo.svg';
 import logoLink from './imgs/link_logo.svg';
 import styles from './Footer.module.css';
 
+function navtoSamwise() {
+  window.open('https://www.samwise.today')
+}
+
 export default (): React.ReactElement => (
   <footer className={styles.Footer}>
-    <BEARRRR className={styles.BEARRRR} />
+    <BEARRRR className={styles.BEARRRR} onClick={navtoSamwise}/>
     <div>
       <p>
         Made by DTI
