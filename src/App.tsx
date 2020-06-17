@@ -1,13 +1,23 @@
-import React from 'react';
-import Landing from './Landing';
-import styles from './App.module.css';
-import SignUp from './SignUp';
-import Footer from './Footer';
+import React from 'react'
+import Home from "./Components/Home"
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import Subscribe from './Components/Subscribe'
+// import Blog from './Components/Blog'
 
-export default (): React.ReactElement => (
-  <div className={styles.App}>
-    <Landing />
-    <SignUp />
-    <Footer />
-  </div>
-);
+class App extends React.Component {
+
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          {/* <Route path="/blog" exact component={Blog} /> */}
+          {/* <Route path="/team" exact component={Home} /> */}
+          <Route path="/subscribe" exact component={Subscribe} />
+        </Switch>
+      </Router>
+    )
+  }
+}
+
+export default App

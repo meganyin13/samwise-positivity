@@ -13,6 +13,8 @@
 
 # secrets
 **/service-account.json
+**/ServiceAccountKey.json
+ServiceAccountKey.json
 
 # misc
 .DS_Store
