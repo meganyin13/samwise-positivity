@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../css/Landing.module.css'
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 export const Landing = (): React.ReactElement => {
   return (
@@ -26,19 +26,13 @@ export const Landing = (): React.ReactElement => {
 export const NavBar = () => {
   return (
     <div className={styles.LogoBar}>
-        <h1 className={styles.NavBarTitle}><a href="/">#SpreadThe
+        <h1 className={styles.NavBarTitle}><a href='/'>#SpreadThe
           <span className={styles.Love}>Love</span></a>
-          <Link to="/subscribe">
-            <span className={styles.NavBarSubscribe}><a href="/">Subscribe</a></span>
+          <Link to='/subscribe'>
+            <span className={styles.NavBarSubscribe}><a href='/'>Subscribe</a></span>
           </Link>
-          {/* <Link to="/team">
-            <span className={styles.NavBarItems}><a href="/">Join Us</a></span>
-          </Link>
-          <Link to="/blog">
-            <span className={styles.NavBarItems}><a href="/">Blog</a></span>
-          </Link> */}
-          <Link to="/">
-            <span className={styles.NavBarItems}><a href="/">Home</a></span>
+          <Link to='/'>
+            <span className={styles.NavBarItems}><a href='/'>Home</a></span>
           </Link>
         </h1>
      </div>

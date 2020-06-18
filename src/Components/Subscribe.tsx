@@ -3,7 +3,7 @@ import { ReactComponent as BEARRRR } from '../imgs/BEARRRR.svg'
 import Phone from '../imgs/phone.png'
 import EmailBox from './EmailBox'
 import styles from '../css/Subscribe.module.css'
-import { NavBar } from "./Landing"
+import { NavBar } from './Landing'
 
 export default (): React.ReactElement => (
     <div>
@@ -19,9 +19,10 @@ export default (): React.ReactElement => (
             <img
                 className={styles.Phone2}
                 src={Phone}
-                alt="Screenshot of Samwise positivity newsletter on iPhone XR"
+                alt='Screenshot of Samwise positivity newsletter on iPhone XR'
             />
-            <a href="https://www.samwise.today" rel="noopener noreferrer" target="_blank">
+            <a href='https://www.samwise.today' rel='noopener noreferrer' target='_blank'>
+
                 <BEARRRR className={styles.BEARRRR} />
             </a>
             </div>
@@ -29,7 +30,7 @@ export default (): React.ReactElement => (
             <img
                 className={styles.Phone}
                 src={Phone}
-                alt="Screenshot of Samwise positivity newsletter on iPhone XR"
+                alt='Screenshot of Samwise positivity newsletter on iPhone XR'
             />
             </div>
         </div>

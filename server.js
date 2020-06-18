@@ -1,8 +1,8 @@
-// const express = require("express")
+// const express = require('express')
 // const app = express()
 
-// app.get("/api/data", (req, res) => {
-//     res.json({name: "Danesh Rajasolan"})
+// app.get('/api/data', (req, res) => {
+//     res.json({name: 'Danesh Rajasolan'})
 // })
 
 // const port = process.env.PORT || 4000

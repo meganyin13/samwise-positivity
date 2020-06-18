@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import { Landing }  from './Landing'
 import styles from '../css/App.module.css'
 import SignUp from './SignUp'
