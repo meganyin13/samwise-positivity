@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from '../css/SignUp.module.css'
-import Newsletter from '../imgs/newsletter.png'
+import React from 'react';
+import styles from '../css/SignUp.module.css';
+import Newsletter from '../imgs/newsletter.png';
 
 export default (): React.ReactElement => (
   <div className={styles.SignUp}>
@@ -12,6 +12,6 @@ export default (): React.ReactElement => (
       </form>
       <button type='submit' className={styles.Button}>Submit</button>
       <img className={styles.Image} src={Newsletter} alt='current newsletter'></img>
-      </div>
+    </div>
   </div>
-)
+);

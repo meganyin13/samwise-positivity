@@ -1,9 +1,8 @@
-import React from 'react'
-import styles from '../css/Landing.module.css'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from '../css/Landing.module.css';
 
-export const Landing = (): React.ReactElement => {
-  return (
+export const Landing = () => (
     <div className={styles.Landing}>
       <NavBar />
       <div>
@@ -20,21 +19,24 @@ export const Landing = (): React.ReactElement => {
         </p>
       </div>
     </div>
-  )
-}
+  );
 
-export const NavBar = () => {
-  return (
+export const NavBar = () => (
     <div className={styles.LogoBar}>
-        <h1 className={styles.NavBarTitle}><a href='/'>#SpreadThe
-          <span className={styles.Love}>Love</span></a>
+        <h1 className={styles.NavBarTitle}>
+          <a href='/'>#SpreadThe
+          <span className={styles.Love}>Love</span>
+          </a>
           <Link to='/subscribe'>
-            <span className={styles.NavBarSubscribe}><a href='/'>Subscribe</a></span>
+            <span className={styles.NavBarSubscribe}>
+              <a href='/'>Subscribe</a>
+            </span>
           </Link>
           <Link to='/'>
-            <span className={styles.NavBarItems}><a href='/'>Home</a></span>
+            <span className={styles.NavBarItems}>
+              <a href='/'>Home</a>
+            </span>
           </Link>
         </h1>
      </div>
-  )
-}
+  );

@@ -1,8 +1,8 @@
-import React from 'react'
-import { Landing }  from './Landing'
-import styles from '../css/App.module.css'
-import SignUp from './SignUp'
-import Footer from './Footer'
+import React from 'react';
+import { Landing } from './Landing';
+import styles from '../css/App.module.css';
+import SignUp from './SignUp';
+import Footer from './Footer';
 
 export default (): React.ReactElement => (
   <div className={styles.App}>
@@ -10,4 +10,4 @@ export default (): React.ReactElement => (
     <SignUp />
     <Footer />
   </div>
-)
+);
