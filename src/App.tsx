@@ -1,11 +1,11 @@
-import React from 'react'
-import Home from './Components/Home'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Subscribe from './Components/Subscribe'
+import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './Components/Home';
+import Subscribe from './Components/Subscribe';
 
 class App extends React.Component {
 
-  render() {
+  render() { 
     return (
       <Router>
         <Switch>
@@ -13,8 +13,8 @@ class App extends React.Component {
           <Route path='/subscribe' exact component={Subscribe} />
         </Switch>
       </Router>
-    )
-  }
-}
+    );
+  };
+};
 
 export default App
