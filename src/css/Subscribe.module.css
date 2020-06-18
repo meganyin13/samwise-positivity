@@ -1,0 +1,81 @@
+.SignUp {
+    width: 100%;
+    height: 103vh;
+    display: flex;
+  }
+  
+  .Blurb {
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-right: 15%;
+  }
+  
+  .Left {
+    width: 60%;
+    background-color: #F8F4ED;
+    padding: 0 10%;
+    box-sizing: border-box;
+  }
+  
+  .Right {
+    width: 40%;
+    background-color: #F5CFBF;
+  }
+  
+  .Phone {
+    position: absolute;
+    left: 50%;
+    max-width: 40%;
+  }
+  
+  .BEARRRR {
+    position: relative;
+    left: 5%;
+    margin-top: 12%;
+  }
+  
+  .BEARRRR svg {
+    height: 2px;
+  }
+  
+  .BEARRRR:hover {
+    cursor:pointer;
+  }
+  
+  .Phone2 {
+    display: none;
+  }
+  
+  @media screen and (max-width: 840px) {
+    .SignUp { 
+      display: block; 
+      padding-bottom: 0;
+    }
+    .Left {
+      padding: 1em 10% 0 10%;
+      height: 100vh;
+      width: 100%;
+    }
+    .Right {
+      display: none;
+    }
+    .Phone2 {
+      display: block;
+      max-width: 100%;
+      padding: 3em 0;
+      margin: 0 auto;
+      max-height: 60%;
+    }
+    .Blurb {
+      font-size: 20px;
+      width: 90%;
+      padding-top: 10%;
+      margin: 0 auto;
+    }
+    .BEARRRR {
+      display: none;
+    }
+  }
+  

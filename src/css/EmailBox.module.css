@@ -1,12 +1,12 @@
 .EmailBox {
-  width: 80%;
+  width: 130%;
   position: relative;
   z-index: 2;
 }
 
 .Input {
-  width: 60%;
-  font-size: 25px;
+  width: 50%;
+  font-size: 20px;
   font-family: 'DM Sans';
   height: 40px;
   border-radius: 20px;
