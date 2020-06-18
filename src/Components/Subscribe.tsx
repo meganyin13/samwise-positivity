@@ -22,6 +22,7 @@ export default (): React.ReactElement => (
                 alt='Screenshot of Samwise positivity newsletter on iPhone XR'
             />
             <a href='https://www.samwise.today' rel='noopener noreferrer' target='_blank'>
+
                 <BEARRRR className={styles.BEARRRR} />
             </a>
             </div>
