@@ -10,9 +10,16 @@
 
 # production
 /build
+server.js
+firebase.js
+Blog.tsx
+Blog.module.css
 
+ 
 # secrets
 **/service-account.json
+**/ServiceAccountKey.json
+ServiceAccountKey.json
 
 # misc
 .DS_Store
