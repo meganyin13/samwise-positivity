@@ -9,5 +9,6 @@ export default (): React.ReactElement => (
     <Landing />
     <SignUp />
     <Footer />
+    foo
   </div>
 );
