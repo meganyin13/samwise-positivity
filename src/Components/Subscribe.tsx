@@ -11,7 +11,8 @@ export default (): React.ReactElement => (
     <div className={styles.SignUp}>
       <div className={styles.Left}>
         <p className={styles.Blurb}>
-          Sign up for a weekly dose of good news, inspiring stories, and wellness tips that aim to spread positivity during these uncertain times :)
+          Sign up for a weekly dose of good news, inspiring stories, and wellness tips
+          that aim to spread positivity during these uncertain times :)
         </p>
         <br />
         <br />

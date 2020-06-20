@@ -3,15 +3,15 @@ import Confetti from 'react-dom-confetti';
 import Result from './Result';
 import styles from '../css/EmailBox.module.css';
 import { ResultType } from '../types';
-import {addEmail} from '../firebase/api';
+import { addEmail } from '../firebase/api';
 
-export default (): React.ReactElement => { 
+export default (): React.ReactElement => {
   const [email, setEmail] = useState<string>('');
   const [result, setResult] = useState<ResultType>('None');
 
   const validEmail = (input: string): boolean => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input);
 
-  const confettiConfig = { 
+  const confettiConfig = {
     angle: 0,
     spread: 360,
     startVelocity: 18,
@@ -47,14 +47,14 @@ export default (): React.ReactElement => {
   return (
     <div className={styles.EmailBox}>
       <input
-        type='text'
-        placeholder='enter email'
+        type="text"
+        placeholder="enter email"
         value={email}
         onChange={onInputChange}
         className={styles.Input}
       />
       <button
-        type='submit'
+        type="submit"
         onClick={submitEmail}
         className={styles.Button}
       >
