@@ -1,5 +1,161 @@
 .Blog {
     background-color: #F8F4ED;
     width: 100%;
-    height: 100vh;
+    height: auto;
   }
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.List {
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.heading {
+  position: absolute;
+  width: 50%;
+  height: 94px;
+  left: 171px;
+  top: 92px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 94px;
+  color: #000000;
+}
+
+.LogoBar {
+  width: auto;
+  padding: 1.0em 0 1.0em 2em;
+  box-sizing: border-box;
+  background-color: white;
+  height: auto;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 90px;
+  text-align: center;
+  margin: 0 0 0 0;
+  z-index: 10;
+  position: relative;
+}
+
+.NavBarItems {
+  float: right;
+  font-size: 18px;
+  position: relative;
+  margin: 0 7% 0 0;
+}
+
+.NavBarTitle {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: left;
+  margin: 0 0 0 0;
+  position: relative;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.Love {
+  color: #FF8A8A;
+}
+
+.SubText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 10;
+  padding: 10px 10px 10px 10px;
+}
+
+.NavBarSubscribe {
+  float: right;
+  font-size: large;
+  position: relative;
+  margin: 0 7% 0 0;
+  font-weight: bold;
+  background: #F4AB98;
+  border-radius: 7px;
+  width: 140px;
+  min-width: fit-content; 
+  position: relative;
+  text-align: center;
+}
+
+.Button {
+  background: #F4AB98;
+  border-radius: 40px;
+  width: 20%;
+  min-width: fit-content; 
+  font-size: 25px;
+  line-height: 42px; 
+  box-shadow: 0px 0px 30px #f5cfbf;
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  bottom: 20%;
+  z-index: 10;
+  border: none;
+} 
+
+.Button:hover,
+.Button:focus {
+  background-color: #FFD1C5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+
+  .List {
+    width: 100%;
+  }
+  
+  .Logo {
+    width: 50%;
+  }
+
+  .LogoBar {
+    width: auto;
+    padding: 0.5em 0 2.6em 1em;
+    box-sizing: border-box;
+    background-color: white;
+    height: auto;
+  }
+
+  .Title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 10%;
+  }
+
+  .SubText {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .Button {
+    position: relative;
+    width: 50%;
+    margin: 1em -10%;
+    border: none;
+    left: 35%;
+  }
+}
