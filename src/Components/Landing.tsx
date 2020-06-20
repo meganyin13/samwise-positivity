@@ -31,6 +31,9 @@ export const NavBar = () => (
       <Link to="/subscribe">
         <span className={styles.NavBarSubscribe}><a href="/">Subscribe</a></span>
       </Link>
+      <Link to="/JoinUs">
+        <span className={styles.NavBarItems}><a href="/">Join Us</a></span>
+      </Link>
       <Link to="/Blog">
         <span className={styles.NavBarItems}><a href="/">Blog</a></span>
       </Link>
