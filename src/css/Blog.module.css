@@ -4,11 +4,6 @@
     height: auto;
   }
 
-.section {
-  display: flex;
-  flex-direction: row;
-}
-
 .List {
   width: 50%;
   padding: 20px;
