@@ -5,7 +5,7 @@ import Newsletter from '../imgs/newsletter.png';
 export default (): React.ReactElement => (
   <div className={styles.SignUp}>
     <div className={styles.Left}>
-      <h3 className={styles.PromptTitle}>This week's positivity prompt:</h3>
+      <h3 className={styles.PromptTitle}>This week&apos;s positivity prompt:</h3>
       <p className={styles.PromptText}>
         Tell us something inspiring
         you saw someone else do this week!

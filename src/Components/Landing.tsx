@@ -14,14 +14,14 @@ export const Landing = (): React.ReactElement => (
         Week of June 20, 2020
       </p>
       <p className={styles.SubText}>
-        Happy mid-June. Whether you're stuck at home or your town is reopening, here are some
+        Happy mid-June. Whether you&apos;re stuck at home or your town is reopening, here are some
         positive headlines and fun activities guaranteed to get you through your day!
       </p>
     </div>
   </div>
 );
 
-export const NavBar = () => (
+export const NavBar = (): React.ReactElement => (
   <div className={styles.LogoBar}>
     <h1 className={styles.NavBarTitle}>
       <a href="/">
