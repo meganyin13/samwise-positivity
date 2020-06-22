@@ -1,5 +1,5 @@
 import React from 'react';
-import { ResultType } from './types';
+import { ResultType } from '../types';
 
 type Props = {
   readonly result: ResultType;

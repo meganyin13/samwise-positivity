@@ -1,13 +1,16 @@
 import React from 'react';
-import Landing from './Landing';
-import styles from './App.module.css';
-import SignUp from './SignUp';
-import Footer from './Footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Components/Home';
+import Blog from './Components/Blog';
+import Subscribe from './Components/Subscribe';
+
 
 export default (): React.ReactElement => (
-  <div className={styles.App}>
-    <Landing />
-    <SignUp />
-    <Footer />
-  </div>
+  <Router>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/subscribe" exact component={Subscribe} />
+      <Route path="/Blog" exact component={Blog} />
+    </Switch>
+  </Router>
 );

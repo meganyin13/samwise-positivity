@@ -1,0 +1,115 @@
+.SignUp {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.Image {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.PromptTitle {
+  font-size: 30px;
+}
+
+.PromptText {
+  text-align: center;
+  font-size: 30px;
+}
+
+.PromptBox {
+  border-radius: 1px;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.PromptBoxInside {
+  flex: 1;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 1px;
+  border: 1px peachpuff solid;
+  border-radius: 10px;
+  
+}
+
+input, input::placeholder {
+  font-size: 20px;
+  opacity: 1;
+  color: grey;
+  padding-left: 10px;
+  
+}
+
+.Button {
+  background: #F4AB98;
+  border-radius: 5px;
+  width: 100%;
+  min-width: fit-content; 
+  font-size: 25px;
+  line-height: 62px; 
+  box-shadow: 0px 0px 30px #f5cfbf;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+  border: none;
+  margin-bottom: 80px;
+} 
+
+.Left {
+  width: 100%;
+  height: auto;
+  background-color: #F5CFBF;
+  padding: 0 10%;
+  box-sizing: border-box;
+}
+
+.Phone {
+  position: absolute;
+  left: 50%;
+  max-width: 40%;
+}
+
+.Phone2 {
+  display: none;
+}
+
+@media screen and (max-width: 840px) {
+
+  .SignUp { 
+    display: block; 
+    padding-bottom: 0;
+  }
+
+  .Image {
+    width: 105%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .Left {
+    padding: 1em 10% 0.1em 10%;
+    height: auto;
+    width: 100%;
+  }
+  
+  .Phone2 {
+    display: block;
+    max-width: 100%;
+    padding: 3em 0;
+    margin: 0 auto;
+    max-height: 60%;
+  }
+}
