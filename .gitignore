@@ -12,8 +12,6 @@
 /build
 server.js
 firebase.js
-Blog.tsx
-Blog.module.css
 
  
 # secrets
