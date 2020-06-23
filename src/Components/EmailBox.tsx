@@ -3,7 +3,7 @@ import Confetti from 'react-dom-confetti';
 import Result from './Result';
 import styles from '../css/EmailBox.module.css';
 import { ResultType } from '../types';
-import { addEmail } from '../firebase/api';
+import addEmail from '../firebase/api';
 
 export default (): React.ReactElement => {
   const [email, setEmail] = useState<string>('');
