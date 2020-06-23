@@ -4,7 +4,6 @@ import Home from './Components/Home';
 import Blog from './Components/Blog';
 import Subscribe from './Components/Subscribe';
 
-
 export default (): React.ReactElement => (
   <Router>
     <Switch>
