@@ -17,6 +17,6 @@ firebase.initializeApp(firebaseConfig);
 const emailsIDCollection = firebase.firestore().collection('emails_id');
 
 const addEmail = (email: string):
-  Promise<void> => emailsIDCollection.doc(email).set({ email });
+Promise<void> => emailsIDCollection.doc(email).set({ email });
 
 export default addEmail;
