@@ -15,8 +15,12 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 const emailsIDCollection = firebase.firestore().collection('emails_id');
-
+const positiveMessages = firebase.firestore().collection('positive_messages');
 const addEmail = (email: string):
 Promise<void> => emailsIDCollection.doc(email).set({ email });
+
+export const addPositiveMessage = (message: string): void => {
+  positiveMessages.add({ message });
+};
 
 export default addEmail;
