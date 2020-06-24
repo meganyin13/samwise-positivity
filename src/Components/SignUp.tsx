@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../css/SignUp.module.css';
 import Newsletter from '../imgs/newsletter.png';
 
+const onInputChange = (): void => {
+
+};
 export default (): React.ReactElement => (
   <div className={styles.SignUp}>
     <div className={styles.Left}>
