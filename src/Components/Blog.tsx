@@ -10,35 +10,31 @@ interface IMyComponentProps {
 }
 
 interface IMyComponentState {
-  emails: Array<String>
+  blogs: Array<String>
 }
 
 class Blog extends React.Component<IMyComponentProps, IMyComponentState> {
   constructor(props: IMyComponentProps) {
     super(props);
-    this.state = { emails: [] };
+    this.state = { blogs: [] };
   }
 
-  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-  componentDidMount() {
-    // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-    const fetchData = async () => {
+  componentDidMount(): void {
+    const fetchData = async (): Promise<void> => {
       const db = firebase.firestore();
       const emails = await db.collection('emails_id').get();
       // eslint-disable-next-line array-callback-return
       emails.docs.map((email) => {
         this.setState((prevState) => {
-          const list = [...prevState.emails, email.data().email];
-          return { emails: list };
-        // eslint-disable-next-line react/destructuring-assignment
-        }, () => console.log(this.state.emails));
+          const list = [...prevState.blogs, email.data().email];
+          return { blogs: list };
+        });
       });
     };
     fetchData();
   }
 
-  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-  render() {
+  render(): React.ReactElement {
     return (
       <div className={styles.Blog}>
         <NavBar />
