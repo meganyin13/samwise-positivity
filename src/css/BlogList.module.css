@@ -1,9 +1,11 @@
 
 .Post { 
     position: relative;
-    width: 750px;
+    width: 85%;
     height: auto;
-    left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
     top: 150px;
 
     background: #FFFFFF;
@@ -44,7 +46,8 @@
 @media screen and (max-width: 840px) {
     .Post {
         width: 90%;
-        margin-left: -20%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .title {
