@@ -4,6 +4,7 @@ import BlogList from './BlogList';
 import { NavBar } from './Landing';
 import styles from '../css/Blog.module.css';
 import Bear from '../imgs/samwise-bear.png';
+import Newsletter from '../imgs/newsletter.png';
 
 interface IMyComponentProps {
   someDefaultValue: string
@@ -44,7 +45,7 @@ class Blog extends React.Component<IMyComponentProps, IMyComponentState> {
             key="key1"
             title="💌 Here for you"
             date="Week of June 22"
-            img={Bear}
+            img={Newsletter}
           />
         </div>
         <div className={styles.List}>
