@@ -31,7 +31,7 @@ export const NavBar = (): React.ReactElement => (
       <Link to="/subscribe">
         <span className={styles.NavBarSubscribe}><a href="/">Subscribe</a></span>
       </Link>
-      <Link to="/Blog">
+      <Link to="/blog">
         <span className={styles.NavBarItems}><a href="/">Blog</a></span>
       </Link>
       <Link to="/">

@@ -4,7 +4,6 @@ import { NavBar } from './Landing';
 import styles from '../css/Blog.module.css';
 import Bear from '../imgs/samwise-bear.png';
 
-
 export default (): React.ReactElement => (
   <div className={styles.Blog}>
     <NavBar />
@@ -26,5 +25,4 @@ export default (): React.ReactElement => (
       />
     </div>
   </div>
-
 );
