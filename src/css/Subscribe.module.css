@@ -5,7 +5,8 @@
   }
   
   .Blurb {
-    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     font-size: 30px;
     margin-top: 30%;
     margin-bottom: 10%;

@@ -13,6 +13,7 @@
 }
 
 .Title {
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 60px;
   line-height: 90px;
@@ -24,6 +25,8 @@
 
 .NavBarItems {
   float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   font-size: 18px;
   position: relative;
   margin: 0 7% 0 0;
@@ -31,6 +34,7 @@
 
 .NavBarTitle {
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   line-height: 40px;
   text-align: left;
@@ -48,8 +52,9 @@ a {
 }
 
 .SubText {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 36px;
   text-align: center;
   width: auto;
@@ -62,6 +67,7 @@ a {
 
 .NavBarSubscribe {
   float: right;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: large;
   position: relative;
   margin: 0 7% 0 0;
@@ -74,26 +80,11 @@ a {
   text-align: center;
 }
 
-.Button {
-  background: #F4AB98;
-  border-radius: 40px;
-  width: 20%;
-  min-width: fit-content; 
-  font-size: 25px;
-  line-height: 42px; 
-  box-shadow: 0px 0px 30px #f5cfbf;
-  font-weight: bold;
-  position: absolute;
-  left: 30%;
-  bottom: 20%;
-  z-index: 10;
-  border: none;
-} 
-
-.Button:hover,
-.Button:focus {
+.NavBarSubscribe:hover,
+.NavBarSubscribe:focus {
   background-color: #FFD1C5;
   cursor: pointer;
+  border: 0.5px black solid;
 }
 
 @media screen and (max-width: 840px) {
@@ -119,13 +110,5 @@ a {
   .SubText {
     font-size: 20px;
     line-height: 24px;
-  }
-
-  .Button {
-    position: relative;
-    width: 50%;
-    margin: 1em -10%;
-    border: none;
-    left: 35%;
   }
 }
