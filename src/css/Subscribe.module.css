@@ -50,18 +50,21 @@
   }
   
   @media screen and (max-width: 840px) {
+
     .SignUp { 
-      display: block; 
+      display: flex; 
       padding-bottom: 0;
     }
+
     .Left {
-      padding: 1em 10% 0 10%;
-      height: 100vh;
+      height: 130%;
       width: 100%;
     }
+
     .Right {
       display: none;
     }
+
     .Phone2 {
       display: block;
       max-width: 100%;
@@ -69,12 +72,14 @@
       margin: 0 auto;
       max-height: 60%;
     }
+    
     .Blurb {
       font-size: 20px;
       width: 90%;
       padding-top: 10%;
       margin: 0 auto;
     }
+
     .BEARRRR {
       display: none;
     }
