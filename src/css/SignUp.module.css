@@ -37,36 +37,35 @@
   margin-bottom: 1px;
   border: 1px peachpuff solid;
   border-radius: 10px;
-  
 }
 
-input, input::placeholder {
+input,
+input::placeholder {
   font-size: 20px;
   opacity: 1;
   color: grey;
   padding-left: 10px;
-  
 }
 
 .Button {
-  background: #F4AB98;
+  background: #f4ab98;
   border-radius: 10px;
   width: 101%;
-  min-width: fit-content; 
+  min-width: fit-content;
   font-size: 25px;
-  line-height: 62px; 
-  box-shadow: 0px 0px 30px #f5cfbf;
+  line-height: 62px;
+  box-shadow: 0 0 30px #f5cfbf;
   font-weight: bold;
   z-index: 10;
   border: none;
   margin-top: 10px;
   margin-bottom: 80px;
-} 
+}
 
 .Left {
   width: 100%;
   height: auto;
-  background-color: #F5CFBF;
+  background-color: #f5cfbf;
   padding: 0 10%;
   box-sizing: border-box;
 }
@@ -82,9 +81,8 @@ input, input::placeholder {
 }
 
 @media screen and (max-width: 840px) {
-
-  .SignUp { 
-    display: block; 
+  .SignUp {
+    display: block;
     padding-bottom: 0;
   }
 
@@ -104,7 +102,7 @@ input, input::placeholder {
     height: auto;
     width: 100%;
   }
-  
+
   .Phone2 {
     display: block;
     max-width: 100%;

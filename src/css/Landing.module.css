@@ -1,12 +1,12 @@
 .Landing {
-  background-color: #F8F4ED;
+  background-color: #f8f4ed;
   width: 100%;
   height: auto;
 }
 
 .LogoBar {
   width: auto;
-  padding: 1.0em 0 1.0em 2em;
+  padding: 1em 0 1em 2em;
   box-sizing: border-box;
   background-color: white;
   height: auto;
@@ -44,7 +44,7 @@ a {
 }
 
 .Love {
-  color: #FF8A8A;
+  color: #ff8a8a;
 }
 
 .SubText {
@@ -54,10 +54,9 @@ a {
   text-align: center;
   width: auto;
   margin: 0 auto;
-  padding-bottom: 20px;
   position: relative;
   z-index: 10;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 20px 10px;
 }
 
 .NavBarSubscribe {
@@ -66,38 +65,36 @@ a {
   position: relative;
   margin: 0 7% 0 0;
   font-weight: bold;
-  background: #F4AB98;
+  background: #f4ab98;
   border-radius: 7px;
   width: 140px;
-  min-width: fit-content; 
-  position: relative;
+  min-width: fit-content;
   text-align: center;
 }
 
 .Button {
-  background: #F4AB98;
+  background: #f4ab98;
   border-radius: 40px;
   width: 20%;
-  min-width: fit-content; 
+  min-width: fit-content;
   font-size: 25px;
-  line-height: 42px; 
-  box-shadow: 0px 0px 30px #f5cfbf;
+  line-height: 42px;
+  box-shadow: 0 0 30px #f5cfbf;
   font-weight: bold;
   position: absolute;
   left: 30%;
   bottom: 20%;
   z-index: 10;
   border: none;
-} 
+}
 
 .Button:hover,
 .Button:focus {
-  background-color: #FFD1C5;
+  background-color: #ffd1c5;
   cursor: pointer;
 }
 
 @media screen and (max-width: 840px) {
-  
   .Logo {
     width: 50%;
   }
