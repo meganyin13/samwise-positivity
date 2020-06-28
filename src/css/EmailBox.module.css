@@ -7,11 +7,11 @@
 .Input {
   width: 50%;
   font-size: 20px;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   height: 40px;
   border-radius: 20px;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
-  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  border: 1px solid #fff;
   padding-right: 25%;
   padding-left: 20px;
 }
@@ -20,10 +20,10 @@
   width: 25%;
   height: 45px;
   font-size: 16px;
-  font-family: 'DM Sans';
+  font-family: 'DM Sans', sans-serif;
   font-weight: bold;
   border-radius: 20px;
-  background: #F4AB98;
+  background: #f4ab98;
   margin-left: -25%;
   padding: 1px;
   position: relative;
@@ -33,15 +33,16 @@
 
 .Button:hover,
 .Button:focus {
-  background-color: #FFD1C5;
+  background-color: #ffd1c5;
   cursor: pointer;
 }
 
 @media screen and (max-width: 840px) {
-  .EmailBox { 
-    width: 90%; 
+  .EmailBox {
+    width: 90%;
     margin: 0 auto;
   }
+
   .Input {
     width: 70%;
     padding: 0;
@@ -50,9 +51,9 @@
     height: 30px;
     padding-right: 20%;
     padding-left: 10px;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
-
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
   }
+
   .Button {
     width: 20%;
     margin-left: -20%;
@@ -61,10 +62,11 @@
     height: 32px;
     padding-top: 2px;
     margin-right: -10%;
-    border: 2px solid #F4AB98;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border: 2px solid #f4ab98;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
     bottom: 1px;
   }
+
   .Result {
     position: absolute;
   }
