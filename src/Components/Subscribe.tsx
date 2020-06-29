@@ -6,7 +6,7 @@ import styles from '../css/Subscribe.module.css';
 import { NavBar } from './Landing';
 
 export default (): React.ReactElement => (
-  <div>
+  <div className={styles.Subscribe}>
     <NavBar />
     <div className={styles.SignUp}>
       <div className={styles.Left}>

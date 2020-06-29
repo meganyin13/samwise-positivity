@@ -29,13 +29,13 @@ export const NavBar = (): React.ReactElement => (
         <span className={styles.Love}>Love</span>
       </a>
       <Link to="/subscribe">
-        <span className={styles.NavBarSubscribe}><a href="/">Subscribe</a></span>
+        <span className={styles.NavBarSubscribe}>Subscribe</span>
       </Link>
       <Link to="/blog">
-        <span className={styles.NavBarItems}><a href="/">Blog</a></span>
+        <span className={styles.NavBarItems}>Blog</span>
       </Link>
       <Link to="/">
-        <span className={styles.NavBarItems}><a href="/">Home</a></span>
+        <span className={styles.NavBarItems}>Home</span>
       </Link>
     </h1>
   </div>
