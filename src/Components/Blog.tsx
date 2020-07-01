@@ -28,13 +28,13 @@ export default (): React.ReactElement => (
               <div>
                 <h1 className="section-heading text-center w-100">COVID-19 Progress</h1>
                 <p className="message-heading text-center w-100">
-                  As the curve continues to flatten, here a little encouragement for everyone to continue doing their part to stay home
+                  As the curve continues to flatten, here&apos;s a little encouragement for everyone to continue doing their part to stay home
                   <span role="img" aria-label="home"> 🏠</span>
                 </p>
                 <img className="image-heading" src={llamas} alt="llamas" />
                 <p className="article-title text-center w-100"><strong>May 6: Antibodies of llamas proven to neutralize COVID-19</strong></p>
                 <p className="articles text-center w-100">
-                  Didnt think you see llamas on our newsletter, right? Well, scientists have long turned to llamas for antibody research. For example, studies were conducted for SARS, MERS, H.I.V, and influenza. These same antibodies recently found to be able to neutralize the new virus, with the encouraging results published earlier this Tuesday.
+                  Didn&apos;t think you see llamas on our newsletter, right? Well, scientists have long turned to llamas for antibody research. For example, studies were conducted for SARS, MERS, H.I.V, and influenza. These same antibodies were recently found to be able to neutralize the new virus, with the encouraging results published earlier this Tuesday.
                   <a href="https://www.nytimes.com/2020/05/06/science/llama-coronavirus-antibodies.html">(NYTimes)</a>
                 </p>
                 <p className="article-title text-center w-100"><strong>May 5: U.K lockdown could be eased from Monday</strong></p>
@@ -122,15 +122,15 @@ export default (): React.ReactElement => (
                   <a href="https://www.instagram.com/cornellkindness/">@cornellkindness</a>
                   ). Cornell Kindness Club was founded in 2016 by a kind group of seniors dedicated to
                   spreading kindness through the Cornell campus. We believe all Cornell students are kind,
-                  and kind people can be any kind of people. We welcome any students to join us in our mission to be kind, 
+                  and kind people can be any kind of people. We welcome any students to join us in our mission to be kind,
                   spread love through the Cornell campus, and pay it forward with an act of kindness!
                 </p>
                 <br />
                 <img className="shoutout-image" src={cornellkindness} alt="cornell kindness" />
                 <br />
-                <p className="feature-message text-center w-100">If you’d like to be featured on next week’s newsletter, fill out our form here. And as always, feel free to share our newsletter with friends, or refer them to our sign-up page at bit.ly/samwise-spreadthelove!</p>
+                <p className="feature-message text-center w-100">If you&apos;d like to be featured on next week&apos;s newsletter, fill out our form here. And as always, feel free to share our newsletter with friends, or refer them to our sign-up page at bit.ly/samwise-spreadthelove!</p>
                 <br />
-                <p className="feature-message text-center w-100">Thanks for tuning in! We’ll see you next week; till then, stay healthy and safe!</p>
+                <p className="feature-message text-center w-100">Thanks for tuning in! We&apos;ll see you next week; till then, stay healthy and safe!</p>
                 <br />
                 <p className="feature-message text-center w-100">Love,</p>
                 <p className="articles text-center w-100">The #SpreadTheLove Team</p>

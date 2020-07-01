@@ -42,7 +42,34 @@ h2, p {
     width:50%;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1275px) {
+    .mission {
+        font-size:16px;
+        background-color:#F8F4ED;
+        padding-bottom:4%;
+        width: 95%;
+        text-align: left!important;
+    }
+    
+    .samwise {
+        font-size:16px;
+        margin-left:2%;
+        margin-right:2%;
+        margin-top: 5%;
+        width: 95%;
+        text-align: left!important;
+    }
+    
+    .samwise-logo {
+        display:block;
+        padding-top:5%;
+        margin-left:10%;
+        margin-right:auto;
+        width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 840px) {
     .mission {
         font-size:16px;
         background-color:#F8F4ED;
