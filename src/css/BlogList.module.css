@@ -34,12 +34,6 @@
   color: #000;
 }
 
-.snap {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 @media screen and (max-width: 840px) {
   .Post {
     width: 95%;
@@ -55,11 +49,5 @@
   .date {
     left: 25%;
     right: 25%;
-  }
-
-  .snap {
-    /* align-self: center;
-    left: 25%;
-    right: 25%; */
   }
 }

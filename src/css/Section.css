@@ -75,41 +75,28 @@ h2, p {
         font-size: 22px;
         line-height: 40px;
         margin-top: 10%;
-      }
-  
-      .subtitle {
-          font-size:12px;
-      }
-  
-      .samwise-bear {
-          width:8%;
-          margin-left:5%;
-      }  
-  
-      .date-heading {
-          padding-bottom:10px;
-      }
-      
+        }
+
       .message-heading {
           padding-right:55px;
           padding-left:45px;
           padding-bottom:20px;
           font-size:17px;
           width: 60%;
-      }
+        }
       
       .image-heading { 
           width:60%;
           margin-left: auto;
           margin-right: auto;
-      }
+        }
       
       .shoutout-image {
           display:block;
           margin-left:3%;
           margin-right:5%;
           width:60%;
-      }
+        }
       
       .article-title {
           margin-top:20px;
@@ -118,7 +105,7 @@ h2, p {
           padding-right:50px;
           padding-left:50px;
           text-align:left!important;
-      }
+        }
       
       .articles {
           width: 60%;
@@ -128,11 +115,7 @@ h2, p {
           padding-right:50px;
           padding-left:50px;
           text-align:left!important;
-      }
-      
-      .productivity-title {
-          font-size:24px;
-      }
+        }
       
       .feature-message {
           margin-top:5px;
@@ -141,8 +124,8 @@ h2, p {
           padding-right:50px;
           padding-left:50px;
           width: 60%;
-      }
-}
+        }
+    }
 
 @media screen and (max-width: 840px) {
 
@@ -212,10 +195,6 @@ h2, p {
         padding-right:50px;
         padding-left:50px;
         text-align:left!important;
-    }
-    
-    .productivity-title {
-        font-size:24px;
     }
     
     .feature-message {
