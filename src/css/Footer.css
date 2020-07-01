@@ -13,6 +13,7 @@ h2, p {
 .footer {
     margin-top:40px;
     background-color:#F8F4ED;
+    border-radius: 20px;
 }
 
 .footer-content {

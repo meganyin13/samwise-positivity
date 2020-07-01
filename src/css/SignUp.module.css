@@ -5,7 +5,7 @@
 }
 
 .Image {
-  width: 65%;
+  width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -17,15 +17,18 @@
 
 .PromptTitle {
   font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .PromptText {
   text-align: center;
   font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 .PromptBox {
-  /* display: flex; */
   border-radius: 1px;
   margin-bottom: 10px;
   height: auto;
@@ -38,36 +41,35 @@
   margin-bottom: 1px;
   border: 1px peachpuff solid;
   border-radius: 10px;
-  
 }
 
-input, input::placeholder {
+input,
+input::placeholder {
   font-size: 20px;
   opacity: 1;
   color: grey;
   padding-left: 10px;
-  
 }
 
 .Button {
-  background: #F4AB98;
-  border-radius: 5px;
-  width: 100%;
-  min-width: fit-content; 
+  background: #f4ab98;
+  border-radius: 10px;
+  width: 101%;
+  min-width: fit-content;
   font-size: 25px;
-  line-height: 62px; 
-  box-shadow: 0px 0px 30px #f5cfbf;
+  line-height: 62px;
+  box-shadow: 0 0 30px #f5cfbf;
   font-weight: bold;
-  position: relative;
   z-index: 10;
   border: none;
+  margin-top: 10px;
   margin-bottom: 80px;
-} 
+}
 
 .Left {
   width: 100%;
   height: auto;
-  background-color: #F5CFBF;
+  background-color: #f5cfbf;
   padding: 0 10%;
   box-sizing: border-box;
 }
@@ -82,10 +84,16 @@ input, input::placeholder {
   display: none;
 }
 
-@media screen and (max-width: 840px) {
+.Button:hover,
+.Button:focus {
+  background-color: #FFD1C5;
+  cursor: pointer;
+  border: 0.5px black solid;
+}
 
-  .SignUp { 
-    display: block; 
+@media screen and (max-width: 840px) {
+  .SignUp {
+    display: block;
     padding-bottom: 0;
   }
 
@@ -105,7 +113,7 @@ input, input::placeholder {
     height: auto;
     width: 100%;
   }
-  
+
   .Phone2 {
     display: block;
     max-width: 100%;
