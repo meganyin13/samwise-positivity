@@ -138,14 +138,6 @@ export default (): React.ReactElement => (
           </div>
         )}
       />
-      <div className={styles.List}>
-        <BlogList
-          key="key2"
-          title="💌 Here for you"
-          date="Week of June 22"
-          element={(<div />)}
-        />
-      </div>
     </div>
   </div>
 );
