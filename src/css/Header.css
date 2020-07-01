@@ -1,0 +1,66 @@
+h1 {
+    margin:2%;
+}
+
+h2, p {
+    margin: 0
+}
+
+.row {
+    margin: 0
+}
+
+.header {
+    display:inline-block;
+    position:relative;
+    background-color:#F8F4ED;
+    background-size:100%;
+    width:100%;
+}
+
+.header-content {
+    margin-top:0%;
+    width:100%;
+}
+
+.title {
+    font-size:64px;
+    background-color:#F8F4ED;
+    text-align:center;
+}
+
+.love {
+    color:#FF8A8A;
+}
+
+.subtitle {
+    font-size:24px;
+    text-align:center;
+}
+
+.samwiselink {
+    text-decoration:none;
+    color:#7FBDFF;
+}
+
+.samwise-bear {
+    width:12%;
+    margin-left:10%;
+}
+
+@media screen and (max-width: 840px) {
+    .title {
+      font-size: 34px;
+      line-height: 40px;
+      margin-top: 10%;
+    }
+
+    .subtitle {
+        font-size:12px;
+    }
+
+    .samwise-bear {
+        width:8%;
+        margin-left:5%;
+    }
+  }

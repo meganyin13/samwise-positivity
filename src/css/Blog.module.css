@@ -52,8 +52,9 @@ a {
   }
 
   .heading {
-    width: 70%;
-    margin-left: -15%;
+    width: 80%;
+    margin-left: -90px;
+    margin-bottom: 60px;
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
