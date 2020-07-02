@@ -86,7 +86,7 @@ input::placeholder {
 
 .Button:hover,
 .Button:focus {
-  background-color: #FFD1C5;
+  background-color: #ffd1c5;
   cursor: pointer;
   border: 0.5px black solid;
 }
