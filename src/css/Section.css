@@ -45,7 +45,7 @@ p {
   font-size: 18px;
   padding-right: 50px;
   padding-left: 50px;
-  text-align: left !important;
+  text-align: left;
 }
 
 .articles {
@@ -54,7 +54,7 @@ p {
   font-size: 16px;
   padding-right: 50px;
   padding-left: 50px;
-  text-align: left !important;
+  text-align: left;
   width: 85%;
 }
 
@@ -64,7 +64,7 @@ p {
 
 .feature-message {
   margin-top: 5px;
-  text-align: left !important;
+  text-align: left;
   font-size: 16px;
   padding-right: 50px;
   padding-left: 50px;
@@ -105,7 +105,7 @@ p {
     font-size: 18px;
     padding-right: 50px;
     padding-left: 50px;
-    text-align: left !important;
+    text-align: left;
   }
 
   .articles {
@@ -115,12 +115,12 @@ p {
     font-size: 16px;
     padding-right: 50px;
     padding-left: 50px;
-    text-align: left !important;
+    text-align: left;
   }
 
   .feature-message {
     margin-top: 5px;
-    text-align: left !important;
+    text-align: left;
     font-size: 16px;
     padding-right: 50px;
     padding-left: 50px;
@@ -184,7 +184,7 @@ p {
     font-size: 18px;
     padding-right: 50px;
     padding-left: 50px;
-    text-align: left !important;
+    text-align: left;
   }
 
   .articles {
@@ -194,12 +194,12 @@ p {
     font-size: 16px;
     padding-right: 50px;
     padding-left: 50px;
-    text-align: left !important;
+    text-align: left;
   }
 
   .feature-message {
     margin-top: 5px;
-    text-align: left !important;
+    text-align: left;
     font-size: 16px;
     padding-right: 50px;
     padding-left: 50px;
