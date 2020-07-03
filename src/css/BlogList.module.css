@@ -1,11 +1,11 @@
 .Post {
-  width: 65%;
+  width: 95%;
   display: block;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   border: 1px black solid;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-top: 10px;
   background: #fff;
   top: 150px;
@@ -34,15 +34,9 @@
   color: #000;
 }
 
-.snap {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 @media screen and (max-width: 840px) {
   .Post {
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -53,12 +47,6 @@
   }
 
   .date {
-    left: 25%;
-    right: 25%;
-  }
-
-  .snap {
-    align-self: center;
     left: 25%;
     right: 25%;
   }

@@ -17,11 +17,15 @@
 
 .PromptTitle {
   font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .PromptText {
   text-align: center;
   font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 .PromptBox {
@@ -78,6 +82,13 @@ input::placeholder {
 
 .Phone2 {
   display: none;
+}
+
+.Button:hover,
+.Button:focus {
+  background-color: #ffd1c5;
+  cursor: pointer;
+  border: 0.5px black solid;
 }
 
 @media screen and (max-width: 840px) {
